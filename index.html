@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Semáforo Manual</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <div class="semaforo">
+        <div id="luz-vermelha" class="luz"></div>
+        <div id="luz-amarela" class="luz"></div>
+        <div id="luz-verde" class="luz"></div>
+    </div>
+
+    <div class="controles">
+        <button id="vermelhos" onclick="mudarCor('vermelha')">Vermelho</button>
+        <button id="amarelos" onclick="mudarCor('amarela')">Amarelo</button>
+        <button id="verdes" onclick="mudarCor('verde')">Verde</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
